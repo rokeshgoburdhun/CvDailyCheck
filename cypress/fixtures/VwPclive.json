@@ -1,0 +1,139 @@
+[
+    {
+        
+        
+        "UrlList" : {
+                        "homePage": "https://www.volkswagen.co.uk/en.html",
+                        "bookATestDrive" : "https://www.volkswagen.co.uk/app/dccforms/vw-gb/testdrive/en"
+                    },
+
+        "BookaTestDriveData" : {
+                        "HeadingText1" : "",
+                        "HeadingText2" : "Ready to take the next step? If you’d like to book a test drive or discuss your requirements with a member of our team, pick your model and select your Retailer and we’ll be in touch."
+                    },
+
+        "ContactUsKmiData" :{
+                                "InformationalText" : "Use our contact form below and we‘ll get back to you as soon as we can. Please check our FAQs to see if your question has already been answered.",
+                                "PrivacyStatementText1" : "Your personal information will only be used to process your enquiry.",
+                                "PrivacyStatementText2" : "Here at Volkswagen Commercial Vehicles we take your privacy seriously and promise to never sell your personal details to anyone. We‘re also committed to keeping your data safe and secure.",
+                                "TypeOfEnquiryErrorMsg" : "Please select one option",
+                                "FirstNameErrorMsg" : "Please enter your first name using letters or hyphens",
+                                "LastNameErrorMsg" : "Please enter your surname using letters or hyphens",
+                                "EmailErrorMsg" : "Please enter a valid email address",
+                                "ContactNumberErrorMsg" : "Please enter a valid phone number",
+                                "MethodOfContactErrorMsg" : "Please let us know how you’d like us to get in touch",
+                                "UnableToSubmitErrorMsg" : "Unable to submit. Please ensure you have provided all the required information."                                
+                            },
+
+        "NewsLetterKmiData" :{
+                                "InformationalText" : "When you sign up to our newsletter Download, you’ll receive updates about new models, feature articles for all our vehicles and of course the latest brand news. You’ll also receive expert tips for taking care of your vehicle and much more.",
+                                "PrivacyStatementText1" : "If you change your mind in the future you can withdraw your consent at any time, including by using the 'unsubscribe' option in the messages you receive.",
+                                "PrivacyStatementText2" : "Here at Volkswagen Commercial Vehicles we take your privacy seriously and promise to never sell your personal details to anyone. We're also committed to keeping your data safe and secure.",
+                                "GenderErrorMsg" : "Please select one option",
+                                "FirstNameErrorMsg" : "Please enter your first name using letters or hyphens",
+                                "LastNameErrorMsg" : "Please enter your surname using letters or hyphens",
+                                "EmailErrorMsg" : "Please enter a valid email address",
+                                "TypeOfCustomerErrorMsg" : "Please select one option",
+                                "ContactedByEmailErrorMsg" : "We need your email address in order to contact you",
+                                "ContactedByPostErrorMsg" : "Please let us know if you’d like to be contacted via post",
+                                "UnableToSubmitErrorMsg" : "Unable to submit. Please ensure you have provided all the required information."                                
+                            },
+
+        "ElectricVanKmiData" :{
+                                "InformationalText" : "If you would like to be amongst the first to receive the latest news and updates on our forthcoming range of electric vehicles and passenger carriers, please register your interest with us by completing the form below, and we will keep you updated on topics such as launch dates, pricing, specification and availability.",                               
+                                "PrivacyStatementText1" : "If you change your mind in the future you can withdraw your consent at any time, including by using the 'unsubscribe' option in the messages you receive.",
+                                "PrivacyStatementText2" : "Here at Volkswagen Commercial Vehicles we take your privacy seriously and promise to never sell your personal details to anyone. We're also committed to keeping your data safe and secure.",                                
+                                "GenderErrorMsg" : "Please select one option",
+                                "FirstNameErrorMsg" : "Please enter your first name using letters or hyphens",
+                                "LastNameErrorMsg" : "Please enter your surname using letters or hyphens",
+                                "EmailErrorMsg" : "Please enter a valid email address",
+                                "TypeOfCustomerErrorMsg" : "This field is required",
+                                "ContactedByEmailErrorMsg" : "We need your email address in order to contact you",                                
+                                "UnableToSubmitErrorMsg" : "Unable to submit. Please ensure you have provided all the required information."                                
+                            },
+
+        "FleetContactUsKmiData" :{
+                                "InformationalText" : "Our dedicated fleet manager support team are here to help you with expert advice and the best possible service. Please complete the form below and we‘ll be in touch.",
+                                "PrivacyStatementText1" : "If you change your mind in the future you can withdraw your consent at any time, including by using the 'unsubscribe' option in the messages you receive.",
+                                "PrivacyStatementText2" : "Here at Volkswagen Commercial Vehicles we take your privacy seriously and promise to never sell your personal details to anyone. We're also committed to keeping your data safe and secure.",                           
+                                "TitleErrorMsg" : "Please select one option",
+                                "FirstNameErrorMsg" : "Please enter your first name using only letters or hyphens",
+                                "LastNameErrorMsg" : "Please enter your surname using only letters or hyphens",
+                                "EmailErrorMsg" : "Please enter a valid email address",
+                                "JobTitleErrorMsg" : "Please enter your job title",
+                                "ContactNumberErrorMsg" : "Please enter a valid phone number",
+                                "CompanyNameErrorMsg" : "Please enter your company name",
+                                "CompanyPostCodeErrorMsg" : "Please enter your company post code",
+                                "MethodOfContactErrorMsg" : "Please select one option",                          
+                                "ContactedByEmailErrorMsg" : "Please confirm if you would like to receive communications from us in the future.",                                
+                                "UnableToSubmitErrorMsg" : "Unable to submit. Please ensure you have provided all the required information."                                
+                            },
+
+        "downloadBrochureModel" : {
+                            "monday" : [
+                                {
+                                    "model" : "California",
+                                    "fileName" : "california-brochure.pdf"
+                                },
+                                {
+                                    "model" : "Grand California",
+                                    "fileName" : "grand_california-brochure.pdf"
+                                }
+                            ],
+                            "tuesday" : [
+                                {
+                                    "model": "Caddy Cargo",
+                                    "fileName" : "caddy-cargo-brochure.pdf"
+                                },
+                                {
+                                    "model": "Caddy",
+                                    "fileName" : "caddy_life-brochure.pdf"
+                                }
+                            ],
+
+                            "wednesday" : [
+                                {
+                                    "model": "Transporter Panel van",
+                                    "fileName" : "transporters-brochure.pdf"
+                                },
+                                {
+                                    "model": "Transporter Sportline",
+                                    "fileName" : "transporter-sportline-brochure.pdf"
+                                }
+                            ],
+
+                            "thursday" : [
+                                {
+                                    "model": "Transporter Kombi",
+                                    "fileName" : "transporters-brochure.pdf"
+                                },
+                                {
+                                    "model": "Transporter Shuttle",
+                                    "fileName" : "transporter_shuttle-brochure.pdf"
+                                },
+                                {
+                                    "model": "New Multivan",
+                                    "fileName" : "multivan-brochure.pdf"
+                                }
+                            ],
+
+                            "friday" : [
+                                {
+                                    "model": "Crafter Panel van",
+                                    "fileName" : "crafter_panel_van-brochure.pdf"
+                                },
+                                {
+                                    "model": "Crafter Chassis cabs",
+                                    "fileName" : "crafter_chassis_cab_dropside-brochure.pdf"
+                                },
+                                {
+                                    "model": "Caddy California",
+                                    "fileName" : "caddy-california-brochure.pdf"
+                                }
+                            ]
+        }       
+            
+
+} 
+    
+]

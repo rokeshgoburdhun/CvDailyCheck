@@ -1,0 +1,1 @@
+npm i -D cy-verify-downloads
