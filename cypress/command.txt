@@ -1,1 +1,3 @@
 npm i -D cy-verify-downloads
+npm install mochawesome-merge --save-dev
+npm install mochawesome --save-dev

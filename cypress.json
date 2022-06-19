@@ -2,6 +2,14 @@
     "viewportWidth": 2000,
     "viewportHeight": 1500,
     "includeShadowDom": true,
-    "trashAssetsBeforeRuns": true
+    "trashAssetsBeforeRuns": true,
+    "reporter": "mochawesome",
+    "reporterOptions": {
+       "reportDir": "cypress/results",
+       "reportFilename": "[name]-report-[datetime]",
+       "overwrite": false,
+       "html": true,
+       "json": false
+    }
 
 }

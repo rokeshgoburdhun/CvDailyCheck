@@ -41,26 +41,127 @@ fixturesData.forEach(datalist => {
         })
     })
 
-    describe(`Test Case: Book A Test Drive`, function () {     
+    // describe(`Test Case: Book A Test Drive`, function () {     
 
-        it('Navigate to Book a Test Drive', () => {
+    //     it('Navigate to Book a Test Drive', () => {
 
-            cy.visit(datalist.UrlList.bookATestDrive)
-            cy.wait(10000)
+    //         cy.visit(datalist.UrlList.bookATestDrive)
+    //         cy.wait(10000)
 
+    //     })
+
+    //     it('Heading Validation', () => {
+
+    //         cy.xpath('//h1[contains(@class, "hlxFKY")]')
+    //                         .contains(datalist.BookaTestDriveData.HeadingText1)
+    //                         .should("be.visible")
+                            
+    //         cy.xpath('//div[contains(@class, "kksoNx")]')
+    //                         .contains(datalist.BookaTestDriveData.HeadingText2)
+    //                         .should("be.visible")
+    //     })
+    //     const day = new Date().getDay();
+    //     var modelPerDay = new Array();
+
+        
+    //     switch(day) {
+    //         case 1:
+    //             modelPerDay = datalist.BookaTestDriveData.monday
+    //           break;
+    //         case 2:
+    //             modelPerDay = datalist.BookaTestDriveData.tuesday
+    //           break;
+    //         case 3:
+    //             modelPerDay = datalist.BookaTestDriveData.wednesday
+    //           break;             
+    //         case 4:
+    //             modelPerDay = datalist.BookaTestDriveData.thursday
+    //           break;
+    //         case 5:
+    //             modelPerDay = datalist.BookaTestDriveData.friday
+    //           break;
+    //         default:
+    //             modelPerDay = datalist.BookaTestDriveData.monday
+    //       }  
+
+    //       modelPerDay.forEach(element => {
+           
+    //         it('Select Model: ' + element.model, () => {
+
+    //             cy.xpath('//div[contains(text(),"'+element.model+'")]').click()                 
+
+    //         })
+
+    //         it('Select Retailer : ' + element.retailer, () => {
+
+               
+    //             cy.xpath('//button[contains(@class, "ElZGT")]').click()
+    //             cy.xpath('//label[contains(@class, "gBwNSA")]//input').type(element.retailer).type('{enter}')
+
+    //         })
+
+    //         it('Skip Date selection ', () => {
+    //             cy.xpath('//button[contains(@class, "ElZGT")]').click()
+    //             cy.wait(1000)
+    //             cy.xpath('//button[contains(@class, "ElZGT")]').click()
+
+    //         })
+
+    //         it('Verify Submit Button', () => {
+
+    //             cy.xpath('//button[contains(@class, "KjTal")]').should('be.visible')
+
+    //         })
+
+    //     })
+        
+    // })
+
+    describe(`Test Case: Phoenix CMS Login`, function () {     
+
+        it('Navigate to Phoenix CMS', () => {
+
+            cy.visit(datalist.UrlList.phoenixCms)
+            cy.wait(5000)
         })
 
-        // it('Heading Validation', () => {
+        it('Login to Phoenix CMS', () => {
+            cy.get('[id="username"]').type(datalist.phoenixCmsLogin.email)
+            cy.get('[id="password"]').type(datalist.phoenixCmsLogin.Password)
+            cy.get('[id="login-button"]').click()
+            cy.wait(2000)
+        
+        })
+        it('Check Login Sucessfull', () => {
+            cy.get('[id="cms-home-link"]').should('be.visible') 
+            cy.xpath('//li[contains(text(),"User: rokesh.goburdhun@tribalworldwide.co.uk")]').should('be.visible')     
+        })
 
-        //     cy.xpath('//header[contains(@class, "jxXxKL")]//h1')
-        //                     .contains("Arrange a test drive")
-        //                     .should("be.visible")
-                            
-        //     cy.xpath('//header[contains(@class, "gBPoAV")]//div[contains(@class,"kksoNx")]')
-        //                     .contains(datalist.BookaTestDriveData.HeadingText2)
-        //                     .should("be.visible")
-        // })  
+
+              
         
     })
-   
+    // describe(`Test Case: Jahia CMS Login`, function () {     
+
+    //     it('Navigate to Phoenix CMS', () => {
+
+    //         cy.visit(datalist.UrlList.jahiaCms,{failOnStatusCode:false})
+    //         cy.wait(5000)
+    //     })
+
+    //     it('Login to Jahia CMS', () => {
+    //         cy.get('[name="username"]').type(datalist.jahiaCms.email)
+    //         cy.get('[name="password"]').type(datalist.jahiaCms.Password)
+    //         cy.xpath('//button[contains(@class, "buttonBlue")]').click({force:true})
+    //         cy.wait(10000)
+        
+    //     })
+    //     it('Check Login Sucessfull', () => {
+    //         cy.get('[id="userSites_table"]').should('be.visible')  
+    //     })
+
+
+              
+        
+    // })
 })
